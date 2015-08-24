@@ -235,19 +235,29 @@ div.section{
   background-size: cover;
 }
 
-div#section0{
-  background-image: url("/images/slides/main-image.jpg");
+div#subsection1{
+  background-color: #4d4848;
+  height: 530px;
+}
+
+div#subsection2{
+  background-color: #000;
+  height: 265px;
 }
 
 div#section1{
-  background-image: url("/images/slides/get-found.jpg");
+  background-image: url("/images/slides/main-image.jpg");
 }
 
 div#section2{
-  background-image: url("/images/slides/build-it.jpg");
+  background-image: url("/images/slides/get-found.jpg");
 }
 
 div#section3{
+  background-image: url("/images/slides/build-it.jpg");
+}
+
+div#section4{
   background-image: url("/images/slides/prints-not-dead.jpg");
 }
 
