@@ -1,0 +1,3 @@
+[submodule "vendor/fullPage.js"]
+	path = vendor/fullPage.js
+	url = https://github.com/alvarotrigo/fullPage.js.git
