@@ -8,7 +8,7 @@
   ],
   "dependencies": {
         "jquery": "1.x.x",
-        "underscore": "1.x.x",
+        "underscore": "1.x.x"
   },
   "name": "uitoux-app",
   "version": "0.0.1",
