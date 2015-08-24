@@ -352,6 +352,23 @@ div#section3{
 
 div#section4{
   background-image: url("/images/slides/prints-not-dead.jpg");
+  .heading{
+    color: #fff;
+    text-shadow: 0 0 10px #2d2d2d;
+    text-transform: lowercase;
+    width: 45%;
+    margin-left: 6%;
+
+    .content{
+      margin-top: 43px;
+      text-align: left;
+    }
+
+    h2{
+      text-transform: lowercase;
+      text-align: left;
+    }
+  }
 }
 
 /* Demos Menu
