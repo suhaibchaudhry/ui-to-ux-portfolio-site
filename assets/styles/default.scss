@@ -271,6 +271,23 @@ div#subsection2{
   height: 20%;
 }
 
+div.links{
+  margin-top: 20px;
+
+  a{
+    &.link{
+      text-align: left;
+      background-color: #000;
+      color: #fff;
+      display: block;
+      margin-top: 10px;
+      padding: 12px 10px;
+      float: left;
+      clear: both;
+    }
+  }
+}
+
 div#section1{
   background-image: url("/images/slides/main-image.jpg");
   .heading{
@@ -302,23 +319,6 @@ div#section2{
     .content{
       text-align: left;
       margin-top: 43px;
-
-      div.links{
-        margin-top: 10px;
-        
-        a{
-          &.link{
-            text-align: left;
-            background-color: #000;
-            color: #fff;
-            display: block;
-            margin-top: 10px;
-            padding: 12px 5px;
-            float: left;
-            clear: both;
-          }
-        }
-      }
     }
 
     h2{
@@ -330,6 +330,24 @@ div#section2{
 
 div#section3{
   background-image: url("/images/slides/build-it.jpg");
+  .heading{
+    color: #fff;
+    text-shadow: 0 0 10px #2d2d2d;
+    text-transform: lowercase;
+    float: right;
+    width: 45%;
+    margin-right: 2%;
+
+    .content {
+      margin-top: 43px;
+      text-align: left;
+    }
+
+    h2{
+      text-transform: lowercase;
+      text-align: left;
+    }
+  }
 }
 
 div#section4{
