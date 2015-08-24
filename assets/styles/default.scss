@@ -1,4 +1,8 @@
 @CHARSET "ISO-8859-1";
+
+//Fonts
+@import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One|Droid+Serif:400,700);
+
 /* Reset CSS
  * --------------------------------------- */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
@@ -37,6 +41,7 @@ h1,h2,h3,h4,h5,h6 {
     margin:0;
     padding:0;
     color:#444;
+    font-family: 'Alfa Slab One', cursive;
 }
 q:before,q:after {
     content:'';
@@ -264,6 +269,11 @@ div#section1{
 
 div#section2{
   background-image: url("/images/slides/get-found.jpg");
+  .heading{
+    h1,h2{
+      text-transform: lowercase;
+    }
+  }
 }
 
 div#section3{
