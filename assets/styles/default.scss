@@ -247,6 +247,19 @@ div#subsection2{
 
 div#section1{
   background-image: url("/images/slides/main-image.jpg");
+  .heading{
+    h1,h2{
+      color: #fff;
+    }
+    h1{
+      font-size: 1000%;
+    }
+    h2{
+      padding-top: 50px;
+      text-transform: lowercase;
+      font-size: 200%;
+    }
+  }
 }
 
 div#section2{
