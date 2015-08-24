@@ -5,8 +5,8 @@ $(document).ready(function() {
 
 				verticalCentered: true,
 
-				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE']/*,
-
+				sectionsColor: ['#000000', '#000000', '#000000', '#000000', '#000000'],
+				/*
 				afterRender: function(){
 
 
