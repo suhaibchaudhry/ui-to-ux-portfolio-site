@@ -1,0 +1,17 @@
+{
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+        "jquery": "1.x.x",
+        "underscore": "1.x.x",
+  },
+  "name": "uitoux-app",
+  "version": "0.0.1",
+  "author": "Asad Hasan",
+  "private": true
+}
