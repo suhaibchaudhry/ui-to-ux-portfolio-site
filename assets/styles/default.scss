@@ -21,6 +21,17 @@ body{
 	color: #333;
 	color: rgba(0,0,0,0.5);
 }
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#444;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+
 .wrap{
 	margin-left: auto;
 	margin-right: auto;
@@ -44,17 +55,19 @@ p{
 
 div.section{
   background-size: cover;
+  text-align:center;
+	overflow: hidden;
 }
 
-// div#subsection1{
-//   background-color: #4d4848;
-//   height: 80%;
-// }
-//
-// div#subsection2{
-//   background-color: #000;
-//   height: 20%;
-// }
+div#subsection1{
+  background-color: #4d4848;
+  height: 80%;
+}
+
+div#subsection2{
+  background-color: #000;
+  height: 20%;
+}
 
 div.links{
   margin-top: 20px;
