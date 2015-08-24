@@ -1,10 +1,11 @@
+(function($){
 $(document).ready(function() {
 
 			$('#fullpage').fullpage({
 
 				verticalCentered: true,
 
-				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
+				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE']/*,
 
 				afterRender: function(){
 
@@ -16,8 +17,9 @@ $(document).ready(function() {
 
 					$('video').get(0).play();
 
-				}
+				}*/
 
 			});
 
 		});
+})(jQuery);

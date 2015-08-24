@@ -231,7 +231,25 @@ p{
 	padding: 0 0 5px 0;
 }
 
+div.section{
+  background-size: cover;
+}
 
+div#section0{
+  background-image: url("/images/slides/main-image.jpg");
+}
+
+div#section1{
+  background-image: url("/images/slides/get-found.jpg");
+}
+
+div#section2{
+  background-image: url("/images/slides/build-it.jpg");
+}
+
+div#section3{
+  background-image: url("/images/slides/prints-not-dead.jpg");
+}
 
 /* Demos Menu
  * --------------------------------------- */
@@ -241,4 +259,3 @@ p{
 	right:10px;
 	z-index: 999;
  }
-
