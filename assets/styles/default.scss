@@ -278,7 +278,8 @@ div#section1{
       color: #fff;
     }
     h1{
-      font-size: 1000%;
+      font-size: 800%;
+      text-transform: uppercase;
       font-family: 'futurist-regular';
     }
     h2{
@@ -292,8 +293,37 @@ div#section1{
 div#section2{
   background-image: url("/images/slides/get-found.jpg");
   .heading{
-    h1,h2{
+    width: 45%;
+    margin-left: 6%;
+    color: #fff;
+    text-shadow: 0 0 10px #2d2d2d;
+    text-transform: lowercase;
+
+    .content{
+      text-align: left;
+      margin-top: 43px;
+
+      div.links{
+        margin-top: 10px;
+        
+        a{
+          &.link{
+            text-align: left;
+            background-color: #000;
+            color: #fff;
+            display: block;
+            margin-top: 10px;
+            padding: 12px 5px;
+            float: left;
+            clear: both;
+          }
+        }
+      }
+    }
+
+    h2{
       text-transform: lowercase;
+      text-align: left;
     }
   }
 }
