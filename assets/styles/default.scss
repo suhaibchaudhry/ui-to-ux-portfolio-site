@@ -1,7 +1,20 @@
-@CHARSET "ISO-8859-1";
+@CHARSET "UTF-8";
 
 //Fonts
 @import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One|Droid+Serif:400,700);
+
+@font-face {
+    font-family: 'futurist-regular';
+    src: url('/fonts/futrfw-webfont.eot');
+    src: url('/fonts/futrfw-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/futrfw-webfont.woff2') format('woff2'),
+         url('/fonts/futrfw-webfont.woff') format('woff'),
+         url('/fonts/futrfw-webfont.ttf') format('truetype'),
+         url('/fonts/futrfw-webfont.svg#futurist_fixed-widthregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /* Reset CSS
  * --------------------------------------- */
@@ -266,6 +279,7 @@ div#section1{
     }
     h1{
       font-size: 1000%;
+      font-family: 'futurist-regular';
     }
     h2{
       padding-top: 50px;
