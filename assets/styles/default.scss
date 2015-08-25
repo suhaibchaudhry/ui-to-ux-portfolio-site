@@ -61,12 +61,13 @@ div.section{
 
 div#subsection1{
   background-color: #4d4848;
-  height: 80%;
-
-  h2{
-    font-size: 350%;
-    padding-top: 4%;
-    text-transform: lowercase;
+  height: 75%;
+  .heading{
+    h2{
+      font-size: 350%;
+      padding-top: 4%;
+      text-transform: lowercase;
+    }
   }
 
   .left{
@@ -75,7 +76,7 @@ div#subsection1{
 
   .form{
     width: 50%;
-    margin-top: 5%;
+    margin-top: 3%;
 
     .form-item{
       width: 75%;
@@ -97,7 +98,18 @@ div#subsection1{
 
   .right{
     float: right;
-    margin-top: 10%;
+    margin-top: 6%;
+
+    input[type=submit]{
+      margin-top: 5%;
+      background-color: #000;
+      border: none;
+      color: #989797;
+      width: 75%;
+      padding: 20px;
+      font-size: 20px;
+      text-transform: lowercase;
+    }
 
     fieldset{
       color: #989797;
@@ -119,7 +131,38 @@ div#subsection1{
 
 div#subsection2{
   background-color: #000;
-  height: 20%;
+  height: 25%;
+
+  .footer-col1, .footer-col2, .footer-col3, .footer-col4{
+    width: 25%;
+    color: #fff;
+    float: left;
+    margin: 2% 0;
+    text-transform: uppercase;
+
+    .footer-title{
+      font-weight: bold;
+    }
+  }
+
+  .copyright, .social-media{
+    width: 25%;
+    color: #fff;
+    margin-top: 2%;
+    text-transform: uppercase;
+  }
+
+  .copyright{
+    text-align: left;
+    padding-left: 8%;
+    float: left;
+  }
+
+  .social-media{
+    text-align: right;
+    padding-right: 8%;
+    float: right;
+  }
 }
 
 div.links{
