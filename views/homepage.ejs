@@ -52,15 +52,23 @@
 			<div class="heading">
 				<h2>Contact Us</h2>
 			</div>
-			<div class="form left">
-				<form method="post">
+			<form mehtod="post">
+				<div class="form left">
 					<input type="text" id="name" class="form-item" name="name" value="" placeholder="name" required="required" />
 					<input type="email" id="email" class="form-item" name="email" value="" placeholder="email" required="required" />
 					<textarea class="form-item" id="message" name="message" placeholder="message" required="required" data-minlength="20"></textarea>
-				</form>
-			</div>
-			<div class="form right">
-			</div>
+				</div>
+				<div class="form right">
+					<fieldset>
+						<legend>What can we help you with?</legend>
+						<input class="checkbox" type="checkbox" name="advertising" value="Advertising" /> Advertising
+						<input class="checkbox" type="checkbox" name="apps" value="Apps" /> Apps
+						<input class="checkbox" type="checkbox" name="websites" value="Websites" /> Websites
+						<input class="checkbox" type="checkbox" name="print" value="Print" /> Print
+						<input class="checkbox" type="checkbox" name="other" value="Other" /> Other
+					</fieldset>
+				</div>
+			</form>
 		</div>
 		<div id="subsection2"></div>
 	</div>

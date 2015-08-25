@@ -69,24 +69,49 @@ div#subsection1{
     text-transform: lowercase;
   }
 
+  .left{
+    float: left;
+  }
+
   .form{
     width: 50%;
+    margin-top: 5%;
 
     .form-item{
-      width: 50%;
+      width: 75%;
       margin-top: 10px;
 
       &#message{
         height: 120px;
-        padding:10px;
-        background-color: #000;
-        border: none;
       }
 
-      &#name, &#email{
-        padding: 10px;
-        background-color: #000;
+      &#name, &#email, &#message{
+        padding: 20px;
+        background-color: #3c3838;
         border: none;
+        font-size: 30px;
+        color: #989797;
+      }
+    }
+  }
+
+  .right{
+    float: right;
+    margin-top: 10%;
+
+    fieldset{
+      color: #989797;
+      text-transform: lowercase;
+      font-size: 20px;
+
+      legend{
+        margin-bottom: 5%;
+        font-size: 30px;
+      }
+
+      .checkbox{
+        width: 25px;
+        height: 25px;
       }
     }
   }
