@@ -269,6 +269,15 @@ p{
 }
 
 .advertising-page {
+  .header {
+    background: #000;
+    height: 40px;
+    width: 100%;
+    ul li {
+      float: left;
+      color: #fff;
+    }
+  }
   .main-image{
     background-image: url("/images/slides/advertising.jpg");
   }
