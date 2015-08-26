@@ -53,221 +53,239 @@ p{
 	font-size: 2em;
 }
 
-div.section{
-  background-size: cover;
-  text-align:center;
-	overflow: hidden;
-}
-
-div#subsection1{
-  background-color: #4d4848;
-  height: 75%;
-  .heading{
-    h2{
-      font-size: 350%;
-      padding-top: 4%;
-      text-transform: lowercase;
-    }
+#fullpage{
+  div.section{
+    background-size: cover;
+    text-align:center;
+  	overflow: hidden;
   }
 
-  .left{
-    float: left;
-  }
-
-  .form{
-    width: 50%;
-    margin-top: 3%;
-
-    .form-item{
-      width: 75%;
-      margin-top: 10px;
-
-      &#message{
-        height: 120px;
-      }
-
-      &#name, &#email, &#message{
-        padding: 20px;
-        background-color: #3c3838;
-        border: none;
-        font-size: 30px;
-        color: #989797;
+  div#subsection1{
+    background-color: #4d4848;
+    height: 75%;
+    .heading{
+      h2{
+        font-size: 350%;
+        padding-top: 4%;
+        text-transform: lowercase;
       }
     }
-  }
 
-  .right{
-    float: right;
-    margin-top: 6%;
-
-    input[type=submit]{
-      margin-top: 5%;
-      background-color: #000;
-      border: none;
-      color: #989797;
-      width: 75%;
-      padding: 20px;
-      font-size: 20px;
-      text-transform: lowercase;
-    }
-
-    fieldset{
-      color: #989797;
-      text-transform: lowercase;
-      font-size: 20px;
-
-      legend{
-        margin-bottom: 5%;
-        font-size: 30px;
-      }
-
-      .checkbox{
-        width: 25px;
-        height: 25px;
-      }
-    }
-  }
-}
-
-div#subsection2{
-  background-color: #000;
-  height: 25%;
-
-  .footer-col1, .footer-col2, .footer-col3, .footer-col4{
-    width: 25%;
-    color: #fff;
-    float: left;
-    margin: 2% 0;
-    text-transform: uppercase;
-
-    .footer-title{
-      font-weight: bold;
-    }
-  }
-
-  .copyright, .social-media{
-    width: 25%;
-    color: #fff;
-    margin-top: 2%;
-    text-transform: uppercase;
-  }
-
-  .copyright{
-    text-align: left;
-    padding-left: 8%;
-    float: left;
-  }
-
-  .social-media{
-    text-align: right;
-    padding-right: 8%;
-    float: right;
-  }
-}
-
-div.links{
-  margin-top: 20px;
-
-  a{
-    &.link{
-      text-align: left;
-      background-color: #000;
-      color: #fff;
-      display: block;
-      margin-top: 10px;
-      padding: 12px 10px;
+    .left{
       float: left;
-      clear: both;
-      text-decoration: none;
+    }
+
+    .form{
+      width: 50%;
+      margin-top: 3%;
+
+      .form-item{
+        width: 75%;
+        margin-top: 10px;
+
+        &#message{
+          height: 120px;
+        }
+
+        &#name, &#email, &#message{
+          padding: 20px;
+          background-color: #3c3838;
+          border: none;
+          font-size: 30px;
+          color: #989797;
+        }
+      }
+    }
+
+    .right{
+      float: right;
+      margin-top: 6%;
+
+      input[type=submit]{
+        margin-top: 5%;
+        background-color: #000;
+        border: none;
+        color: #989797;
+        width: 75%;
+        padding: 20px;
+        font-size: 20px;
+        text-transform: lowercase;
+      }
+
+      fieldset{
+        color: #989797;
+        text-transform: lowercase;
+        font-size: 20px;
+
+        legend{
+          margin-bottom: 5%;
+          font-size: 30px;
+        }
+
+        .checkbox{
+          width: 25px;
+          height: 25px;
+        }
+      }
     }
   }
-}
 
-div#section1{
-  background-image: url("/images/slides/main-image.jpg");
-  .heading{
-    h1,h2{
+  div#subsection2{
+    background-color: #000;
+    height: 25%;
+
+    .footer-col1, .footer-col2, .footer-col3, .footer-col4{
+      width: 25%;
       color: #fff;
-    }
-    h1{
-      font-size: 800%;
+      float: left;
+      margin: 2% 0;
       text-transform: uppercase;
-      font-family: 'futurist-regular';
+
+      .footer-title{
+        font-weight: bold;
+      }
     }
-    h2{
-      padding-top: 50px;
-      text-transform: lowercase;
-      font-size: 200%;
+
+    .copyright, .social-media{
+      width: 25%;
+      color: #fff;
+      margin-top: 2%;
+      text-transform: uppercase;
+    }
+
+    .copyright{
+      text-align: left;
+      padding-left: 8%;
+      float: left;
+    }
+
+    .social-media{
+      text-align: right;
+      padding-right: 8%;
+      float: right;
     }
   }
-}
 
-div#section2{
-  background-image: url("/images/slides/get-found.jpg");
-  .heading{
-    width: 45%;
-    margin-left: 6%;
-    color: #fff;
-    text-shadow: 0 0 10px #2d2d2d;
-    text-transform: lowercase;
+  div.links{
+    margin-top: 20px;
 
-    .content{
-      text-align: left;
-      margin-top: 43px;
-    }
-
-    h2{
-      text-transform: lowercase;
-      text-align: left;
+    a{
+      &.link{
+        text-align: left;
+        background-color: #000;
+        color: #fff;
+        display: block;
+        margin-top: 10px;
+        padding: 12px 10px;
+        float: left;
+        clear: both;
+        text-decoration: none;
+      }
     }
   }
-}
 
-div#section3{
-  background-image: url("/images/slides/build-it.jpg");
-  .heading{
-    color: #fff;
-    text-shadow: 0 0 10px #2d2d2d;
-    text-transform: lowercase;
-    float: right;
-    width: 45%;
-    margin-right: 2%;
-
-    .content {
-      margin-top: 43px;
-      text-align: left;
-    }
-
-    h2{
-      text-transform: lowercase;
-      text-align: left;
+  div#section1{
+    background-image: url("/images/slides/main-image.jpg");
+    .heading{
+      h1,h2{
+        color: #fff;
+      }
+      h1{
+        font-size: 800%;
+        text-transform: uppercase;
+        font-family: 'futurist-regular';
+      }
+      h2{
+        padding-top: 50px;
+        text-transform: lowercase;
+        font-size: 200%;
+      }
     }
   }
-}
 
-div#section4{
-  background-image: url("/images/slides/prints-not-dead.jpg");
-  .heading{
-    color: #fff;
-    text-shadow: 0 0 10px #2d2d2d;
-    text-transform: lowercase;
-    width: 45%;
-    margin-left: 6%;
-
-    .content{
-      margin-top: 43px;
-      text-align: left;
-    }
-
-    h2{
+  div#section2{
+    background-image: url("/images/slides/get-found.jpg");
+    .heading{
+      width: 45%;
+      margin-left: 6%;
+      color: #fff;
+      text-shadow: 0 0 10px #2d2d2d;
       text-transform: lowercase;
-      text-align: left;
+
+      .content{
+        text-align: left;
+        margin-top: 43px;
+      }
+
+      h2{
+        text-transform: lowercase;
+        text-align: left;
+      }
+    }
+  }
+
+  div#section3{
+    background-image: url("/images/slides/build-it.jpg");
+    .heading{
+      color: #fff;
+      text-shadow: 0 0 10px #2d2d2d;
+      text-transform: lowercase;
+      float: right;
+      width: 45%;
+      margin-right: 2%;
+
+      .content {
+        margin-top: 43px;
+        text-align: left;
+      }
+
+      h2{
+        text-transform: lowercase;
+        text-align: left;
+      }
+    }
+  }
+
+  div#section4{
+    background-image: url("/images/slides/prints-not-dead.jpg");
+    .heading{
+      color: #fff;
+      text-shadow: 0 0 10px #2d2d2d;
+      text-transform: lowercase;
+      width: 45%;
+      margin-left: 6%;
+
+      .content{
+        margin-top: 43px;
+        text-align: left;
+      }
+
+      h2{
+        text-transform: lowercase;
+        text-align: left;
+      }
     }
   }
 }
 
 .advertising-page {
-  .main-image {
+  .main-image{
     background-image: url("/images/slides/advertising.jpg");
+  }
+
+  .portfolio-items{
+    height: 300px;
+
+    .even, .odd{
+      width: 50%;
+    }
+
+    .even{
+      float: left;
+    }
+
+    .odd{
+      float: right;
+    }
   }
 }
