@@ -276,6 +276,7 @@ p{
 
     ul{
       float: right;
+      line-height: 40px;
 
       li{
         float: left;
@@ -305,6 +306,8 @@ p{
   }
 
   .client-items{
+    height: 75px;
+
     .client{
       width: 20%;
       float: left;
@@ -341,6 +344,47 @@ p{
 
     .odd{
       float: right;
+    }
+  }
+
+  #subsection2{
+    background-color: #000;
+    height: 25%;
+
+    .footer-col1, .footer-col2, .footer-col3, .footer-col4{
+      width: 25%;
+      color: #fff;
+      float: left;
+      margin: 2% 0;
+      text-transform: uppercase;
+      text-align: center;
+
+      .footer-title{
+        font-weight: bold;
+      }
+    }
+
+    .copyright, .social-media{
+      width: 25%;
+      color: #fff;
+      margin-top: 2%;
+      text-transform: uppercase;
+    }
+
+    .copyright{
+      text-align: left;
+      padding-left: 8%;
+      float: left;
+    }
+
+    .social-media{
+      text-align: right;
+      padding-right: 8%;
+      float: right;
+    }
+
+    .footer2-wrapper{
+      height: 80px;
     }
   }
 }
