@@ -10,5 +10,11 @@ module.exports = {
     res.view({
       errors: req.flash('error')
     });
+  },
+
+	"webdevelopment": function (req, res) {
+    res.view({
+      errors: req.flash('error')
+    });
   }
 };

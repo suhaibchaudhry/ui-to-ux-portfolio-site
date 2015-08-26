@@ -35,7 +35,8 @@ module.exports.routes = {
   '/': {
     view: 'homepage'
   },
-  'get /portfolio' : 'PublicController.portfolio'
+  'get /portfolio' : 'PublicController.portfolio',
+  'get /webdevelopment' : 'PublicController.webdevelopment'
 
 
 
