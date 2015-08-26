@@ -269,24 +269,70 @@ p{
 }
 
 .advertising-page {
-  .header {
+  .header{
     background: #000;
     height: 40px;
     width: 100%;
-    ul li {
-      float: left;
-      color: #fff;
+
+    ul{
+      float: right;
+
+      li{
+        float: left;
+        color: #fff;
+      }
     }
   }
   .main-image{
     background-image: url("/images/slides/advertising.jpg");
+
+    h1{
+      text-align: center;
+      text-transform: lowercase;
+      color: #fff;
+      text-shadow: 2px 2px #696969;
+    }
+  }
+
+  .subheading{
+    h2{
+      text-transform: lowercase;
+      margin-left: 75px;
+      color: #000;
+      font-family: sans-serif;
+      text-shadow: initial;
+    }
+  }
+
+  .client-items{
+    .client{
+      width: 20%;
+      float: left;
+    }
   }
 
   .portfolio-items{
     height: 300px;
 
+    .item-1{
+      background-image: url("/images/portfolio/stafford-corporate-housing.jpg");
+    }
+
+    .item-2{
+      background-image: url("/images/portfolio/moody-gallery.jpg");
+    }
+
+    .item-3{
+      background-image: url("/images/portfolio/mcmurtreygallery.jpg");
+    }
+
+    .item-4{
+      background-image: url("/images/portfolio/z-med-clinic.jpg");
+    }
+
     .even, .odd{
       width: 50%;
+      height: 150%;
     }
 
     .even{
