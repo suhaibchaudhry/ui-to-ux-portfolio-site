@@ -34,7 +34,11 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+  'get /portfolio' : PublicController.portfolio
+
+
+
 
   /***************************************************************************
   *                                                                          *
