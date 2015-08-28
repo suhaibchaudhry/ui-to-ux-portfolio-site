@@ -150,9 +150,6 @@ p{
       }
     }
     .footer2 {
-      width: 1220px;
-      display: block;
-      margin: 0 auto;
       .copyright, .social-media{
         color: #fff;
         margin-top: 2%;
@@ -161,10 +158,12 @@ p{
 
       .copyright{
         float: left;
+        margin-left: 8%;
       }
 
       .social-media{
         float: right;
+        margin-right: 8%;
       }
     }
   }
