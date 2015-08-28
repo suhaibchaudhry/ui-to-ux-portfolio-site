@@ -2,6 +2,8 @@
 
 //Fonts
 @import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One|Droid+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700|Quattrocento:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,600);
 
 @font-face {
     font-family: 'futurist-regular';
@@ -17,18 +19,15 @@
 }
 
 body{
-	font-family: arial,helvetica;
+	font-family: 'Open Sans', sans-serif;
 	color: #333;
-	color: rgba(0,0,0,0.5);
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-weight: normal;
-    font-size: 100%;
     margin:0;
     padding:0;
     color:#444;
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -45,12 +44,13 @@ h1{
 h2 {
   font-size: 60px;
   color: #fff;
-  text-shadow: 0 0 12px #565656;
   letter-spacing: 2px;
+  text-shadow: 2px 2px 0 #383838;
 }
 
 p{
-	font-size: 2em;
+  font-size: 1.5em;
+  line-height: 35px;
 }
 
 #fullpage{
@@ -58,24 +58,18 @@ p{
     background-size: cover;
     text-align:center;
   	overflow: hidden;
+    h2 {
+      font-size: 4.7em;
+    }
   }
 
   div#subsection1{
     background-color: #4d4848;
     height: 75%;
-    .heading{
-      h2{
-        font-size: 350%;
-        padding-top: 4%;
-        text-transform: lowercase;
-      }
-    }
-
     .left{
       float: left;
     }
-
-    .form{
+    .form {
       width: 50%;
       margin-top: 3%;
 
@@ -123,8 +117,7 @@ p{
         }
 
         .checkbox{
-          width: 25px;
-          height: 25px;
+          
         }
       }
     }
@@ -191,14 +184,13 @@ p{
         color: #fff;
       }
       h1{
-        font-size: 800%;
         text-transform: uppercase;
         font-family: 'futurist-regular';
       }
       h2{
-        padding-top: 50px;
+        padding-top: 30px;
         text-transform: lowercase;
-        font-size: 200%;
+        font-size: 1.4em;
       }
     }
   }
@@ -209,12 +201,12 @@ p{
       width: 45%;
       margin-left: 6%;
       color: #fff;
-      text-shadow: 0 0 10px #2d2d2d;
+      text-shadow: 2px 2px 1px #2d2d2d;
       text-transform: lowercase;
 
       .content{
         text-align: left;
-        margin-top: 43px;
+        margin-top: 17px;
       }
 
       h2{
@@ -228,14 +220,14 @@ p{
     background-image: url("/images/slides/build-it.jpg");
     .heading{
       color: #fff;
-      text-shadow: 0 0 10px #2d2d2d;
+      text-shadow: 2px 2px 1px #2d2d2d;
       text-transform: lowercase;
       float: right;
       width: 45%;
       margin-right: 2%;
 
       .content {
-        margin-top: 43px;
+        margin-top: 17px;
         text-align: left;
       }
 
@@ -250,13 +242,13 @@ p{
     background-image: url("/images/slides/prints-not-dead.jpg");
     .heading{
       color: #fff;
-      text-shadow: 0 0 10px #2d2d2d;
+      text-shadow: 2px 2px 1px #2d2d2d;
       text-transform: lowercase;
       width: 45%;
       margin-left: 6%;
 
       .content{
-        margin-top: 43px;
+        margin-top: 17px;
         text-align: left;
       }
 
@@ -271,9 +263,10 @@ p{
 .advertising-page {
   .header{
     background: #000;
-    height: 40px;
+    overflow: hidden;
     width: 100%;
-
+    .menu {
+      width: 1220px;
     ul{
       float: right;
       line-height: 40px;
@@ -281,9 +274,11 @@ p{
       li{
         float: left;
         color: #fff;
+        padding: 2px;
       }
     }
   }
+}
   .main-image{
     background-image: url("/images/slides/advertising.jpg");
 
@@ -292,6 +287,7 @@ p{
       text-transform: lowercase;
       color: #fff;
       text-shadow: 2px 2px #696969;
+      padding: 52px 0;
     }
   }
 
