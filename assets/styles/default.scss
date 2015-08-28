@@ -382,10 +382,30 @@ p{
       float: left;
     }
 
-    .social-media{
+    .social-media {
       text-align: right;
       padding-right: 8%;
       float: right;
+      .facebook {
+        background-image: url("/images/social-media/facebook.png");
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+      }
+      .twitter {
+        background-image: url("/images/social-media/twitter.png");
+      }
+      .google {
+        background-image: url("/images/social-media/google.png");
+      }
+      .instagram {
+        background-image: url("/images/social-media/instagram.png");
+      }
+      .youtube {
+        background-image: url("/images/social-media/youtube.png");
+      }
+
     }
 
     .footer2-wrapper{
