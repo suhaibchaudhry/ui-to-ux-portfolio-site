@@ -22,4 +22,10 @@ $(document).ready(function() {
 			});
 
 		});
+
+		$('input:radio').screwDefaultButtons({
+        		image: 'url("images/radio/radio.jpg")',
+        		width: 85,
+        		height: 85
+    		});
 })(jQuery);
