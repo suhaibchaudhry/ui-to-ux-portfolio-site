@@ -8,7 +8,8 @@
   ],
   "dependencies": {
         "jquery": "1.x.x",
-        "underscore": "1.x.x"
+        "underscore": "1.x.x",
+	"ScrewDefaultButtons": "https://github.com/mattSOLANO/ScrewDefaultButtonsV2.git"
   },
   "name": "uitoux-app",
   "version": "0.0.1",
