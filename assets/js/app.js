@@ -23,9 +23,9 @@ $(document).ready(function() {
 
 		});
 
-		$('input:radio').screwDefaultButtons({
-        		image: 'url("images/radio/radio.jpg")',
-        		width: 85,
-        		height: 85
-    		});
+		$('input:checkbox').screwDefaultButtons({
+        		image: 'url("images/radio/checkboxSmall.jpg")',
+        		width: 43,
+        		height: 43
+   });
 })(jQuery);
